@@ -1,0 +1,61 @@
+/*
+  FileName: Google.css
+  Description: Help to sytle entire google home page mockup
+*/
+
+/*Header Styles*/
+
+*{
+  font-size: calc(10px + 2vmin);
+
+}
+header{
+  background-color: #CCC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftNav ul li,
+.rightNav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.rightNav{}
+
+/*Container Styles*/
+.container{
+  min-height: 60vh;
+}
+
+
+/*Footer Styles*/
+footer{
+  background-color: #EEE;
+
+}
+.footerTop{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+.footerTop p{
+  padding-left: 50px;
+}
+.footerBootom{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.footerBootom ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.footerLeftnav{
+   align-items:stretch;
+}
+.footerRightNav{
+  align-items: flex-end;
+  display:flex;
+}

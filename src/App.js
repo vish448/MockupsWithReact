@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom'
 
 import Home from './mockups/home'
-import Google from './mockups/google'
+import Google from './mockups/google/google'
 
 
 class App extends Component {
