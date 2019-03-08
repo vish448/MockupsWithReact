@@ -21,13 +21,42 @@ header{
   display: inline-block;
   padding: 10px;
 }
-.rightNav{}
+
+.rightNav{
+
+}
+.rightNav ul {
+padding-right: 40px;
+}
 
 /*Container Styles*/
 .container{
   min-height: 60vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.buttonContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inputField{
+  border: 1px solid #EEE;
+  box-shadow: 0px 5px 5px #EEE;
+  border-radius: 50px;
+  width:30%;
+  height: 80px;
+  margin:60px;
+}
+
+.button{
+  padding:10px 20px;
+  background-color: #EEE;
+  margin:20px;
+}
 
 /*Footer Styles*/
 footer{
@@ -47,6 +76,9 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+}
+.footerBootom ul{
+  padding-right: 40px;
 }
 .footerBootom ul li{
   display: inline-block;
