@@ -53,9 +53,20 @@ padding-right: 40px;
 }
 
 .button{
-  padding:10px 20px;
+  padding:20px 30px;
   background-color: #EEE;
   margin:20px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  font-size: 28px;
+  border-color: #f2f2f2;
+}
+.button:hover{
+  border-color: #c6c6c6;
+}
+
+.button.rounded{
+  border-radius: 10px;
 }
 
 /*Footer Styles*/

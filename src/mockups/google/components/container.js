@@ -17,8 +17,8 @@ export default class Container extends React.Component {
         </div>
         <div className="buttons">
           <div className="buttonContainer">
-            <Button name="Submit" />
-            <Button name="Cancel" />
+            <Button name="Google Search" style="button rounded" />
+            <Button name="I'm Feeling Lucky" style="button rounded" />
           </div>
         </div>
       </div>
