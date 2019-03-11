@@ -17,7 +17,8 @@ export default class Container extends React.Component {
         </div>
         <div className="buttons">
           <div className="buttonContainer">
-            Button
+            <Button name="Submit" />
+            <Button name="Cancel" />
           </div>
         </div>
       </div>
