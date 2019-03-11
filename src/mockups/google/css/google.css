@@ -6,11 +6,10 @@
 /*Header Styles*/
 
 *{
-  font-size: calc(10px + 2vmin);
-
+  font-size: calc(4px + 2vmin);
 }
 header{
-  background-color: #CCC;
+  //background-color: #CCC;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,6 +19,8 @@ header{
 .rightNav ul li{
   display: inline-block;
   padding: 10px;
+  font-size: 28px;
+
 }
 
 .rightNav{
@@ -27,6 +28,14 @@ header{
 }
 .rightNav ul {
 padding-right: 40px;
+}
+
+.roundedAvatar{
+  width: 45px;
+border-radius: 25px;
+height: 45px;
+vertical-align: middle;
+border: 1px solid #ececec;
 }
 
 /*Container Styles*/
@@ -50,6 +59,8 @@ padding-right: 40px;
   width:30%;
   height: 80px;
   margin:60px;
+  outline: none;
+  padding-left:  50px;
 }
 
 .button{
@@ -79,9 +90,11 @@ footer{
   flex-direction: row;
   width: 100%;
   justify-content: flex-start;
+  border: 1px solid #e6e3e3
 }
 .footerTop p{
   padding-left: 50px;
+  font-size: 28px;
 }
 .footerBootom{
   display: flex;
@@ -94,6 +107,7 @@ footer{
 .footerBootom ul li{
   display: inline-block;
   padding: 10px;
+  font-size: 28px;
 }
 .footerLeftnav{
    align-items:stretch;

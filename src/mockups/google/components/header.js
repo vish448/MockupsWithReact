@@ -1,5 +1,9 @@
 import React from 'react'
 
+import Avatar from '../../../components/avatar'
+
+import googleLogo from '../../../images/googleLogo.png'
+
 import '../css/google.css'
 
 export default class Header extends React.Component {
@@ -16,7 +20,10 @@ export default class Header extends React.Component {
           <ul>
             <li>Gmail</li>
             <li>Images</li>
-            <li>Avatar</li>
+            <li><Avatar
+                  imagePath={googleLogo}
+                  size="40"
+                  style="roundedAvatar" /></li>
           </ul>
         </div>
       </header>
