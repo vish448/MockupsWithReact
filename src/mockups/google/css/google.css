@@ -40,7 +40,7 @@ padding-right: 40px;
 
 /*Container Styles*/
 .container{
-  min-height: 60vh;
+  min-height: 50vh;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +54,6 @@ padding-right: 40px;
 
 .inputField{
   border: 1px solid #EEE;
-
   border-radius: 50px;
   width:30%;
   height: 50px;
@@ -95,7 +94,7 @@ footer{
   flex-direction: row;
   width: 100%;
   justify-content: flex-start;
-  border: 1px solid #e6e3e3
+  border-bottom: 1px solid #e6e3e3;
 }
 .footerTop p{
   padding-left: 50px;
