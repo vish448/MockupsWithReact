@@ -10,7 +10,7 @@ export default class Container extends React.Component {
     return (
       <div className="container">
         <div className="logo">
-          <img src={googleLogo} alt="googleLogo" width="400" />
+          <img src={googleLogo} alt="googleLogo" width="250" />
         </div>
         <div className="searchBar">
           <SearchBar />

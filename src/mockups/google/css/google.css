@@ -19,7 +19,7 @@ header{
 .rightNav ul li{
   display: inline-block;
   padding: 10px;
-  font-size: 28px;
+  font-size: 18px;
 
 }
 
@@ -31,11 +31,11 @@ padding-right: 40px;
 }
 
 .roundedAvatar{
-  width: 45px;
-border-radius: 25px;
-height: 45px;
-vertical-align: middle;
-border: 1px solid #ececec;
+  width: 40px;
+  border-radius: 20px;
+  height: 40px;
+  vertical-align: middle;
+  border: 1px solid #ececec;
 }
 
 /*Container Styles*/
@@ -54,23 +54,28 @@ border: 1px solid #ececec;
 
 .inputField{
   border: 1px solid #EEE;
-  box-shadow: 0px 5px 5px #EEE;
+
   border-radius: 50px;
   width:30%;
-  height: 80px;
-  margin:60px;
+  height: 50px;
+  margin: 20px;
   outline: none;
   padding-left:  50px;
 }
 
+.inputField:hover{
+  box-shadow: 0px 5px 5px #EEE;
+}
+
 .button{
-  padding:20px 30px;
+  padding:8px 18px;
   background-color: #EEE;
   margin:20px;
   line-height: 27px;
   background-color: #f2f2f2;
-  font-size: 28px;
+  font-size: 18px;
   border-color: #f2f2f2;
+  outline: none;
 }
 .button:hover{
   border-color: #c6c6c6;
@@ -94,7 +99,7 @@ footer{
 }
 .footerTop p{
   padding-left: 50px;
-  font-size: 28px;
+  font-size: 18px;
 }
 .footerBootom{
   display: flex;
@@ -107,7 +112,7 @@ footer{
 .footerBootom ul li{
   display: inline-block;
   padding: 10px;
-  font-size: 28px;
+  font-size: 18px;
 }
 .footerLeftnav{
    align-items:stretch;
