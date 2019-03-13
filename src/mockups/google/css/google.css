@@ -87,7 +87,9 @@ padding-right: 40px;
 /*Footer Styles*/
 footer{
   background-color: #EEE;
-
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 .footerTop{
   display: flex;

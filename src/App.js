@@ -19,7 +19,6 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
             <Header />
-            <Nav />
             <Route exact path ="/" component = {Home} />
             <Route path="/google" component = {Google} />
         </div>
