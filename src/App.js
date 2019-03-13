@@ -11,6 +11,7 @@ import {
 
 import Home from './mockups/home'
 import Google from './mockups/google/google'
+import Twitter from './mockups/twitter/twitter'
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
             <Header />
             <Route exact path ="/" component = {Home} />
             <Route path="/google" component = {Google} />
+            <Route path="/twitter" component = {Twitter} />
         </div>
       </BrowserRouter>
 
