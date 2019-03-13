@@ -1,0 +1,67 @@
+/*Twitter.css*/
+
+#topNavigation{
+  background-color: #FFF;
+  height: 50px;
+  box-shadow: 0px 2px 6px #efefef;
+}
+
+#profilePic {
+  background-color: #009999;
+  height: 200px;
+}
+
+#statsContainer {
+  background-color: #FFF;
+  box-shadow: 0px 2px 6px #efefef;
+}
+#statContent{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#displayPic{
+  width: 200px;
+  position: absolute;
+  height: 200px;
+  top: 190px;
+  z-index: 3;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+#stats {
+  background-color: #c5a5a5;
+  height:60px;
+  width: 100%;
+}
+#mainContainer {
+  background-color: #e9eff2;
+}
+#mainContent {
+
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#personalInfo {
+  background-color: #CCCFFF;
+  height: 300px;
+  width: 20%
+}
+
+#feeder {
+  background-color: #FFF;
+  height: 500px;
+  width: 60%;
+  margin:0px 20px;
+}
+
+#sidebar{
+  background-color: red;
+  height: 400px;
+  width: 20%
+}
