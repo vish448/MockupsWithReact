@@ -1,9 +1,36 @@
 /*Twitter.css*/
 
-#topNavigation{
+#topNavigationContainer{
   background-color: #FFF;
-  height: 50px;
   box-shadow: 0px 2px 6px #efefef;
+}
+#topNavigationContent{
+  display: flex;
+  justify-content:space-between;
+  width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  height: 50px;
+}
+#topNavigationContent .logo {
+  color: #1da1f2;
+}
+#topNavigationContent .leftNav a{
+  color: #66757f;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 17px;
+}
+#topNavigationContent .rightNav input,
+#topNavigationContent .rightNav p {
+  margin-right: 15px;
+}
+#topNavigationContent .rightNav .avatar {
+  margin-right: 15px;
+}
+#topNavigationContent .leftNav a:hover{
+  color: #1da1f2;
+  text-decoration:underline;
 }
 
 #profilePic {
