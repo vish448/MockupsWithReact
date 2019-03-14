@@ -8,3 +8,4 @@ export default class ProfilePic extends React.Component {
     )
   }
 }
+ 

@@ -29,9 +29,9 @@ export default class TopNavigation extends React.Component {
             </Link>
           </div>
           <div className="rightNav">
-            <input type="text" placeholder="Search Twitter" />
+            <input type="text" className="search" placeholder="Search Twitter" /><FontAwesomeIcon icon="search" className="searchIcon" />
             <FontAwesomeIcon icon="user-circle" className="avatar" />
-            <button>Tweet</button>
+          <button>Tweet</button>
           </div>
         </div>
       </div>

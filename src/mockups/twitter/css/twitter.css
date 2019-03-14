@@ -1,5 +1,46 @@
 /*Twitter.css*/
 
+/*Global Css*/
+button{
+  height: 34px;
+  background-color: #32ADAD;
+  color: #fff;
+  border-radius: 1000px;
+  box-shadow: none;
+  font-weight: bold;
+  text-align: center;
+  border-color: #32ADAD;
+  padding: 6px 16px;
+  font-size: 14px;
+}
+
+button.clear{
+  background-color: transparent;
+  border-color: #32ADAD;
+  color: #32ADAD;
+}
+
+input {
+  height: 28px;
+  border-radius: 100px;
+  box-shadow: none;
+  outline: none;
+  border:1px solid #eee;
+  padding:2px 5px;
+  font-size: 16px;
+}
+input.search {
+  adding: 2px 32px 2px 7px;
+}
+.searchIcon{
+  color: #eee;
+  padding-left: -40px;
+  position: absolute;
+  z-index: 3;
+  margin-left: -45px;
+  margin-top: 5px;
+}
+
 #topNavigationContainer{
   background-color: #FFF;
   box-shadow: 0px 2px 6px #efefef;
