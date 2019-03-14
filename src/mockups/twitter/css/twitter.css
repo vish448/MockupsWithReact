@@ -12,6 +12,7 @@ button{
   border-color: #32ADAD;
   padding: 6px 16px;
   font-size: 14px;
+  outline: none;
 }
 
 button.clear{
@@ -89,7 +90,7 @@ input.search {
   display: flex;
 }
 
-#displayPic{
+#displayPic img{
   width: 200px;
   position: absolute;
   height: 200px;
