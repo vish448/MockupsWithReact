@@ -29,7 +29,6 @@ export default class Stats extends React.Component {
               </li>
             </ul>
             <button className="clear editProfile">Edit Profile</button>
-
           </div>
       </div>
     )

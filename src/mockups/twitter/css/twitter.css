@@ -158,7 +158,6 @@ button.editProfile{
   background-color: #e9eff2;
 }
 #mainContent {
-
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -167,10 +166,29 @@ button.editProfile{
 }
 
 #personalInfo {
-  background-color: #CCCFFF;
-  height: 300px;
-  width: 20%
+  width: 20%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-start;
 }
+#personalInfo > div {
+  padding: 10px 0px;
+}
+#handle{
+  font-size: 14px;
+  font-weight: bold;
+  color:#9e9e9e;
+}
+
+.profileInfo{
+  font-size: 14px;
+  padding: 5px !important;
+  color:#9e9e9e;
+}
+
 
 #feeder {
   background-color: #FFF;
