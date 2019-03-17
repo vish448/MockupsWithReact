@@ -32,6 +32,9 @@ nav#main-nav{
   align-items: flex-end;
   padding: 18px;
 }
+nav#main-nav a{
+  padding-right: 15px;
+}
 /*Container*/
 
 /*Footer*/
