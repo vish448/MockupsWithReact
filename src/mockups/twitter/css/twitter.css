@@ -1,0 +1,287 @@
+/*Twitter.css*/
+
+/*Global Css*/
+button{
+  height: 34px;
+  background-color: #32ADAD;
+  color: #fff;
+  border-radius: 1000px;
+  box-shadow: none;
+  font-weight: bold;
+  text-align: center;
+  border-color: #32ADAD;
+  padding: 6px 16px;
+  font-size: 14px;
+  outline: none;
+}
+
+button.clear{
+  background-color: transparent;
+  border-color: #32ADAD;
+  color: #32ADAD;
+}
+
+input {
+  height: 28px;
+  border-radius: 100px;
+  box-shadow: none;
+  outline: none;
+  border:1px solid #eee;
+  padding:2px 5px;
+  font-size: 16px;
+}
+input.search {
+  adding: 2px 32px 2px 7px;
+}
+.searchIcon{
+  color: #eee;
+  padding-left: -40px;
+  position: absolute;
+  z-index: 3;
+  margin-left: -45px;
+  margin-top: 5px;
+}
+
+ul li.noBullet{
+  list-style-type: none;
+}
+
+#topNavigationContainer{
+  background-color: #FFF;
+  box-shadow: 0px 2px 6px #efefef;
+}
+#topNavigationContent{
+  display: flex;
+  justify-content:space-between;
+  width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  height: 50px;
+}
+#topNavigationContent .logo {
+  color: #1da1f2;
+}
+#topNavigationContent .leftNav a{
+  color: #66757f;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 17px;
+}
+#topNavigationContent .rightNav input,
+#topNavigationContent .rightNav p {
+  margin-right: 15px;
+}
+#topNavigationContent .rightNav .avatar {
+  margin-right: 15px;
+}
+#topNavigationContent .leftNav a:hover{
+  color: #1da1f2;
+  text-decoration:underline;
+}
+
+#profilePic {
+  background-color: #009999;
+  height: 200px;
+}
+
+#statsContainer {
+  background-color: #FFF;
+  height:60px;
+  width: 100%;
+  box-shadow: 0px 2px 6px #efefef;
+}
+#statContent{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  height: 60px;
+  justify-content: flex-start;
+}
+#stats {
+  width: 100%;
+  display: flex;
+}
+#span20{
+  width: 20%;
+}
+#statNav{
+  width: 80%;
+  margin: 0 0 0 20px;
+  display: flex;
+}
+
+#statNav ul{
+  padding:0px;
+  margin: 0px;
+}
+
+#statNav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 6px 20px;
+}
+#statNav ul li:hover{
+  border-bottom: 2px solid #32ADAD;
+}
+
+#statNav ul li a br{
+  line-height: 15px;
+}
+
+#statNav ul li a{
+  font-size: 15px;
+  text-decoration: none;
+  color: #66757f;
+  font-weight: bold;
+}
+
+#statNav ul li:hover a{
+  color: #32ADAD;
+}
+
+button.editProfile{
+  width: 120px;
+  margin: 12px;
+}
+
+#displayPic img{
+  width: 200px;
+  position: absolute;
+  height: 200px;
+  top: 190px;
+  z-index: 3;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+#mainContainer {
+  background-color: #e9eff2;
+  min-height: 500px;
+}
+#mainContent {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#personalInfo {
+  width: 20%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-start;
+}
+#personalInfo > div {
+  padding: 10px 0px;
+}
+#handle{
+  font-size: 14px;
+  font-weight: bold;
+  color:#9e9e9e;
+}
+
+.profileInfo{
+  font-size: 14px;
+  padding: 5px !important;
+  color:#9e9e9e;
+  line-height: 14px;
+}
+
+
+#feederContainer {
+  background-color: #FFF;
+  width: 60%;
+  margin:0px 20px;
+}
+#feederContent {
+
+}
+#feederContent hr {
+  border: 1px solid #EEE;
+  margin: 0px;
+}
+#tweets {
+  //margin: 0px 10px 5px 70px;
+}
+#tweetContent {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 10px 0px 70px;
+}
+#tweets:hover {
+  background-color: #F9f9f9;
+}
+#userAvatar {
+  position: absolute;
+  padding: 10px;
+  margin-left: -70px;
+}
+#userAvatar img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 4px solid #fff;
+}
+
+#userInfo {
+
+}
+#userInfo #userName {
+  font-weight: bold;
+}
+
+#userInfo > *{
+  font-size: 15px;
+}
+
+ #userInfo .tweetHandle{
+  font-weight: bold;
+  color: #CCC;
+}
+
+#userInfo .date{
+  color: #CCC;
+}
+
+#tweetInfo > *{
+  text-align: left;
+  font-size: 14px;
+  line-height:15px;
+}
+
+.analysisIcons{
+  font-size: 16px;
+  padding: 0px 10px;
+  color: #CCC;
+}
+
+#sidebar{
+  background-color: #FFF;
+  width: 20%
+}
+#sidebar header h1{
+  margin:0px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#sidebar header a{
+  font-size: 12px;
+  padding: 5px;
+}
+
+#sidebar body #userAvatar{
+  margin-left: 0px;
+}
+
+#sidebar #userInfo,
+#sidebar body .followProfile{
+  text-align: right;
+  padding-right:10px;
+}
