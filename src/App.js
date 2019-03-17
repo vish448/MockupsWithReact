@@ -12,7 +12,7 @@ import {
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faHome,faBolt,faBell,faEnvelope,faUserCircle,faSearch,faMapMarker,faBuilding,faCalendar } from '@fortawesome/free-solid-svg-icons'
+import { faHome,faBolt,faBell,faEnvelope,faUserCircle,faSearch,faMapMarker,faBuilding,faCalendar,faComment,faRetweet,faHeart,faChartPie} from '@fortawesome/free-solid-svg-icons'
 
 
 import Home from './mockups/home'
@@ -22,7 +22,7 @@ import Twitter from './mockups/twitter/twitter'
 
 class App extends Component {
   render() {
-    library.add(fab,faHome,faBolt,faBell,faEnvelope,faUserCircle,faSearch,faMapMarker,faBuilding,faCalendar)
+    library.add(fab,faHome,faBolt,faBell,faEnvelope,faUserCircle,faSearch,faMapMarker,faBuilding,faCalendar,faComment,faRetweet,faHeart,faChartPie)
 
     return (
       <BrowserRouter>
